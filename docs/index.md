@@ -14,7 +14,7 @@ hide:
 
     Lorem Ipsum     Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
 
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_25.2_8003_I)
+    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8003_I)
 
 -   :material-github:{ .lg .middle } __PBE_25.2_8003_II__
 
@@ -22,7 +22,7 @@ hide:
 
     Lorem Ipsum Lorem Ipsum Lorem Ipsum
 
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_25.2_8003_II)
+    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8003_II)
 
 
 </div>
