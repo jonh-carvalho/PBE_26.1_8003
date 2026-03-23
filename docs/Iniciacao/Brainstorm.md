@@ -3,14 +3,14 @@ id: brainstorm
 title: Brainstorm
 ---
  
-## Introdução
-<p align = "justify">
+## Introdução 
+<p align = "justify"> 
 O brainstorm é uma técnica de elicitação de requisitos que consiste em reunir a equipe e discutir sobre diversos tópicos gerais do projeto apresentados no documento problema de negócio. No brainstorm o diálogo é incentivado e críticas são evitadas para permitir que todos colaborem com suas próprias ideias. 
 </p>
  
-## Metodologia
-<p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.  
+## Metodologia 
+<p align = "justify"> 
+A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou ... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.  
 </p>
  
 ## Brainstorm
