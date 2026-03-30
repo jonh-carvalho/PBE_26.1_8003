@@ -12,7 +12,7 @@ hide:
 
     ---
 
-    Lorem Ipsum     Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+    Giovann Villela, Matheus Mannarino, Matheus Peçanha, Pedro Torres
 
     [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8003_I)
 
@@ -20,7 +20,7 @@ hide:
 
     ---
 
-    Lorem Ipsum Lorem Ipsum Lorem Ipsum
+    Bento, Maria Luisa, Miguel Campos
 
     [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8003_II)
 
