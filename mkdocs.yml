@@ -98,8 +98,7 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - minify:
-      minify_html: true
+  - plantuml
   - search
 
 theme:
