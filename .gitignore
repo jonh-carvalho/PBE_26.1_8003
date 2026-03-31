@@ -1,6 +1,7 @@
 # MkDocs
 site/
 .mkdocs.yml.bak
+tmp/
 
 # Python
 __pycache__/
