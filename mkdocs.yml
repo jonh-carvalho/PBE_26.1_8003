@@ -2,7 +2,7 @@
 repo_url: https://github.com/jonh-carvalho/PBE_26.1_8003
 site_author: Jonh Carvalho
 site_name: PBE_26.1_8003
-copyright: Copyright ©️ 2025, Jonh Carvalho
+copyright: Copyright ©️ 2026, Jonh Carvalho
 
 nav: 
   - Home: index.md
@@ -13,6 +13,7 @@ nav:
       - Mkdocs: Disciplina/mkdocs.md
       - CodeSpace: Disciplina/codespace.md
       - Avaliações: Disciplina/avaliacoes.md
+      - Roteiros: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
@@ -22,7 +23,7 @@ nav:
       - Prototipagem Baixa Fidelidade: Iniciacao/prototipo_baixa_fidelidade.md
   - Elaboração:
       - Index: Elaboracao/index.md
-      - Requisitos: Elaboracao/das.md
+      - Requisitos: Elaboracao/levreq.md
       - Casos de Uso: Elaboracao/casos_de_uso.md
       - Diagrama de Classes: Elaboracao/diagrama_de_classes.md
       - Diagrama de Sequência: Elaboracao/diagrama_de_sequencia.md
