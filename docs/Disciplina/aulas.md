@@ -8,6 +8,19 @@
 | __04__ - 16/03/26     | :material-check: |
 | __05__ - 23/03/25     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 | __06__ - 30/03/26     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf) |
+| __07__ - 06/04/26     | :material-check: [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
+| __07__ - 13/04/26     | :material-check: AP1 |
+| __08__ - 20/04/26     | :material-check: Feriado
+| __09__ - 27/04/26     | :material-check: Python OO <br> - [Notebook](../Disciplina/Roteiros/__Construção/Poo/poo.ipynb) <br> - [Conceito de OO](../Disciplina/Roteiros/__Construção/Poo/Conceitos-basicos-de-OO.pdf) <br> - [Python OO](../Disciplina/Roteiros/__Construção/Poo/Python-OO.pdf) <br> - Introdução ao Django  |
+| __10__ - 04/05/26     | :material-check: Roteiro Django Rest- Introdução SQL - Sqlite  |
+| __11__ - 11/05/26     | :material-check: Roteiro Streaming |
+| __12__ - 18/05/26     | :material-check: Roteiro Streaming - Content 1xN|
+| __13__ - 25/05/26     | :material-check: Roteiro Streaming - PlayList NxN -  |
+| __14__ - 01/06/26     | :material-check: Roteiro |
+| __15__ - 08/06/26     | :material-check: App |
+| __16__ - 15/06/26     | :material-check: AP2 - Apresentação |
+| __17__ - 22/06/26     | :material-check:  |
+| __18__ - 29/06/26     | :material-check: AS |
 
 <!--
 | __01__ - 06/08/25    | :material-check: Apresentação da Disciplina - Processo de Desenvolvimento <br> :material-check: Processo de Desenvolvimento -[Do Cascata ao Ágil](../assets/Aulas/Do%20Cascata%20ao%20Ágil.pdf) |

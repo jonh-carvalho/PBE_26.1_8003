@@ -12,7 +12,7 @@ hide:
 
     ---
 
-    Giovann Villela, Matheus Mannarino, Matheus Peçanha, Pedro Torres
+    Giovanni Villela, Matheus Mannarino, Matheus Peçanha, Pedro Torres
 
     [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8003_I)
 

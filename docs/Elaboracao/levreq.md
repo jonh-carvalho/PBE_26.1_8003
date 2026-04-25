@@ -71,7 +71,8 @@ title: Levantamento de Requisitos
 Aqui está o diagrama de **Caso de Uso (UML)** para o cenário de **"Realizar Pedido"** no aplicativo de delivery, usando **PlantUML**:
 
 ### **Código PlantUML**:
-```plantuml
+
+```puml
 @startuml FastDelivery_CasosDeUso
 
 left to right direction

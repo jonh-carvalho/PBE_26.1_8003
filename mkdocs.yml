@@ -98,8 +98,9 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - plantuml
   - search
+  - plantuml:
+      puml_url: http://www.plantuml.com/plantuml
 
 theme:
   name: material
