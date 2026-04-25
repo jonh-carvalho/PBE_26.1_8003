@@ -1,3 +1,7 @@
+# 04 - Design Thinking
+
+---
+
 ### **Projeto: Redesign de um Parque Público para Engajamento Comunitário** 
 
 **Problema:** Um parque local está subutilizado, com reclamações sobre segurança, falta de comodidades e desinteresse da comunidade.
@@ -5,10 +9,10 @@
 ---
 
 #### **1. Empatizar**  
+
 **Objetivo:** Compreender as necessidades e dores dos usuários.  
 
-**Atividades:**  
-
+- **Atividades:**  
   - Entrevistar frequentadores do parque, não frequentadores e partes interessadas (moradores, comerciantes).  
   - Observar o parque em diferentes horários para identificar padrões (bancos vazios, lixo, falta de atividades).  
   - Criar mapas de empatia para documentar frustrações (ex: "Me sinto inseguro à noite" ou "Não há nada para fazer com meus filhos").  
@@ -19,8 +23,7 @@
 
 **Objetivo:** Estruturar o problema central a ser resolvido.  
 
-**Declaração do Problema:**  
-
+- **Declaração do Problema:**  
   *"Como podemos transformar o parque em um espaço seguro, vibrante e inclusivo que incentive a interação e o uso regular pela comunidade?"*  
 
 ---
@@ -29,8 +32,7 @@
 
 **Objetivo:** Gerar soluções criativas.  
 
-**Brainstorming:**  
-
+- **Brainstorming:**  
   - Organizar workshops com moradores, artistas e urbanistas.  
   - Ideias propostas:  
     - Instalar obras de arte interativas ou murais.  
@@ -45,8 +47,7 @@
 
 **Objetivo:** Criar versões tangíveis e de baixo custo das soluções.  
 
-**Protótipos:**  
-
+- **Protótipos:**  
   - Maquete 3D do parque com o novo layout.  
   - "Parque pop-up" com assentos temporários, iluminação e arte.  
   - Calendário de eventos para teste de feedback.  
@@ -57,7 +58,7 @@
 
 **Objetivo:** Coletar feedback e refinar a solução.  
 
-**Testes:**  
+- **Testes:**  
   - Convidar a comunidade para experimentar o "parque pop-up" e dar opiniões.  
   - Usar pesquisas ou quadros de feedback para avaliar o que funciona ou não.  
   - Repetir o processo com base nos resultados (ex: ajustar disposição de assentos, aumentar iluminação).  
@@ -81,4 +82,4 @@ Após iterações, o projeto final inclui:
 - **Colaborativo:** Partes interessadas envolvidas em todas as etapas.  
 - **Iterativo:** Protótipos permitem ajustes rápidos com base no feedback.  
 
-O Design Thinking garante que o parque se torne um ponto de conexão, segurança e criatividade!
+O Design Thinking garante que o parque se torne um ponto de conexão, segurança e criatividade! 🌳🎨

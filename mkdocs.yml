@@ -1,7 +1,7 @@
 ---
-repo_url: https://github.com/jonh-carvalho/PBE_26.1_8003
+repo_url: https://github.com/jonh-carvalho/PBE_26.1_8001
 site_author: Jonh Carvalho
-site_name: PBE_26.1_8003
+site_name: PBE_26.1_8001
 copyright: Copyright ©️ 2026, Jonh Carvalho
 
 nav: 
@@ -11,19 +11,27 @@ nav:
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
-      - CodeSpace: Disciplina/codespace.md
       - Avaliações: Disciplina/avaliacoes.md
-      - Roteiros: 
+      - Roteiros:
         - Iniciação: 
-          - Design Thinking: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
-          - UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
-        - Elaboração: 
-          - Levantamento de Requisitos: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
+          - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
+          - RUP/UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
+        - Elaboração:
+          - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
+        - Construção:
+          - POO:
+            - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
+            - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
+          - Django:
+            - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
+            - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
+            - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
       - 5w2h: Iniciacao/5w2h.md
-      - Brainstorming: Iniciacao/brainstorm.md
+      - Design Thinking: Iniciacao/design_thinking.md
+      - Brainstorming: Iniciacao/Brainstorm.md
       - Mapa Mental: Iniciacao/mapa_mental.md
       - Prototipagem Baixa Fidelidade: Iniciacao/prototipo_baixa_fidelidade.md
   - Elaboração:
@@ -32,10 +40,9 @@ nav:
       - Casos de Uso: Elaboracao/casos_de_uso.md
       - Diagrama de Classes: Elaboracao/diagrama_de_classes.md
       - Diagrama de Sequência: Elaboracao/diagrama_de_sequencia.md
-      - Protótipo de Alta Fidelidade: Elaboracao/prototipo_alta_fidelidade.md
   - Construção:
       - Index: Construcao/index.md
-      - Git Issues: Construcao/git_issues.md
+      - Github Workflows: Construcao/github_workflows.md
       - GitHub Projects: Construcao/github_projects.md
       - CodeSpace: Construcao/codespace.md
   - Transição:
@@ -101,14 +108,17 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
       puml_keyword: plantuml
+  - minify:
+      minify_html: true
   - search
-  - plantuml:
-      puml_url: http://www.plantuml.com/plantuml
+  - mkdocs-jupyter:
+      execute: false
+      allow_errors: true
 
 theme:
-  name: material
-  logo: assets/logo.png
   favicon: assets/ibmec_icon.png
+  name: material
+  logo: assets/ibmec_logo.png
   palette:
     
     - media: "(prefers-color-scheme)"
