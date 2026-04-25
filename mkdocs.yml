@@ -118,7 +118,7 @@ plugins:
 theme:
   favicon: assets/ibmec_icon.png
   name: material
-  logo: assets/ibmec_logo.png
+  logo: assets/logo.png
   palette:
     
     - media: "(prefers-color-scheme)"
