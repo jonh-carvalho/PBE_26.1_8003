@@ -8,7 +8,6 @@
 | __04__ - 16/03/26     | :material-check: |
 | __05__ - 23/03/25     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 | __06__ - 30/03/26     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf) |
-<<<<<<< HEAD
 | __07__ - 06/04/26     | :material-check: [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) |
 | __07__ - 13/04/26     | :material-check: AP1 |
 | __08__ - 20/04/26     | :material-check: Feriado
@@ -22,9 +21,6 @@
 | __16__ - 15/06/26     | :material-check: AP2 - Apresentação |
 | __17__ - 22/06/26     | :material-check:  |
 | __18__ - 29/06/26     | :material-check: AS |
-=======
-| __07__ - 06/04/26     | :material-check: <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf) | 
->>>>>>> 4677ed3d357ad4180ab688899be11636d1a1982c
 
 <!--
 | __01__ - 06/08/25    | :material-check: Apresentação da Disciplina - Processo de Desenvolvimento <br> :material-check: Processo de Desenvolvimento -[Do Cascata ao Ágil](../assets/Aulas/Do%20Cascata%20ao%20Ágil.pdf) |
