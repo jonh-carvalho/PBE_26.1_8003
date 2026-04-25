@@ -23,7 +23,7 @@ nav:
             - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
             - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
           - Django:
-            - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
+            - Intro Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
             - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
             - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
   - Iniciação: 
