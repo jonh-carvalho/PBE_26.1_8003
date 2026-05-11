@@ -140,10 +140,11 @@ Considerando a estrutura proposta anteriormente, seus endpoints principais serã
 - **Use variáveis de ambiente**: Configure variáveis como `base_url` para facilitar a mudança entre ambientes
 
 - **Teste os status codes**:
-  - 200 OK para GET bem-sucedido
-  - 201 Created para POST bem-sucedido
-  - 400 Bad Request para dados inválidos
-  - 404 Not Found para recursos não existentes
+
+    - 200 OK para GET bem-sucedido
+    - 201 Created para POST bem-sucedido
+    - 400 Bad Request para dados inválidos
+    - 404 Not Found para recursos não existentes
 
 - **Exporte a coleção**: Você pode exportar como JSON e compartilhar com sua equipe
 
@@ -172,20 +173,23 @@ Considerando a estrutura proposta anteriormente, seus endpoints principais serã
 ## Exemplo Completo de Requisição no Postman
 
 - **Configuração inicial**:
-  - Abra o Postman
-  - Clique em "New Request"
-  - Selecione o método HTTP desejado (GET, POST, etc)
-  - Digite a URL: `http://localhost:8000/api/produtos/`
+
+    - Abra o Postman
+    - Clique em "New Request"
+    - Selecione o método HTTP desejado (GET, POST, etc)
+    - Digite a URL: `http://localhost:8000/api/produtos/`
 
 - **Para POST/PUT/PATCH**:
-  - Vá para a aba "Body"
-  - Selecione "raw"
-  - Escolha "JSON" no dropdown
-  - Cole o JSON com os dados
+
+    - Vá para a aba "Body"
+    - Selecione "raw"
+    - Escolha "JSON" no dropdown
+    - Cole o JSON com os dados
 
 - **Enviando a requisição**:
-  - Clique em "Send"
-  - Verifique o status code na resposta
-  - Visualize os dados retornados na aba "Body" da resposta
+
+    - Clique em "Send"
+    - Verifique o status code na resposta
+    - Visualize os dados retornados na aba "Body" da resposta
 
 Com esses passos, você poderá testar completamente sua API Django REST Framework tanto pelo navegador (usando a interface web do DRF) quanto pelo Postman, sem a necessidade de configurar autenticação.
