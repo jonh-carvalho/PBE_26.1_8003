@@ -15,6 +15,8 @@ nav:
             - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
             - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
             - Relacionamentos: Disciplina/Roteiros/Construcao/Streaming/05_Playlist_NxN.md
+            - Shell: Disciplina/Roteiros/Construcao/Streaming/06_Shell.md
+            - Swagger: Disciplina/Roteiros/Construcao/Streaming/07_Swagger.md
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
