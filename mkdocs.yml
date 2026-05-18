@@ -8,6 +8,13 @@ nav:
   - Home: index.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
+      - Streaming: 
+            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
+            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
+            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
+            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
+            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+            - Relacionamentos: Disciplina/Roteiros/Construcao/Streaming/05_Playlist_NxN.md
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
@@ -29,12 +36,7 @@ nav:
           - BD:
             - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
             - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md
-          - Streaming: 
-            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
-            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
-            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
-            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
-            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+          
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md

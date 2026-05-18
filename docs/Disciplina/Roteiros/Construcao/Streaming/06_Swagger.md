@@ -2,41 +2,51 @@
 
 ## Introdução ao Swagger
 
-Para adicionar o Swagger ao seu projeto Django com Django REST Framework, você pode usar a biblioteca **drf-yasg** (Yet Another Swagger Generator). Esta biblioteca fornece uma interface Swagger para documentar e testar sua API REST.
+Para adicionar documentação OpenAPI/Swagger ao seu projeto Django com Django REST Framework, você pode usar a biblioteca **drf-spectacular**. Esta biblioteca gera o schema da API e permite visualizar a documentação com Swagger UI e ReDoc.
 
-### Passos para Configurar o Swagger com `drf-yasg`
+### Passos para Configurar o Swagger com `drf-spectacular`
 
-1. **Instalar o `drf-yasg`**
+1. **Instalar o `drf-spectacular`**
 
-   Execute o seguinte comando para instalar a biblioteca `drf-yasg`:
+   Execute o seguinte comando para instalar a biblioteca `drf-spectacular`:
 
    ```bash
-   pip install drf-yasg
+   pip install drf-spectacular
    ```
 
-2. **Configurar o `drf-yasg` no Projeto**
+2. **Configurar o `drf-spectacular` no Projeto**
+
+   No arquivo `settings.py`, adicione o app e configure o DRF para usar o schema do `drf-spectacular`:
+
+   ```python
+   INSTALLED_APPS = [
+      # ...
+      'drf_spectacular',
+   ]
+
+   REST_FRAMEWORK = {
+      'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+   }
+
+   SPECTACULAR_SETTINGS = {
+      'TITLE': 'API de Conteúdos',
+      'DESCRIPTION': 'Documentação da API para o app de streaming de áudio e vídeo',
+      'VERSION': '1.0.0',
+   }
+   ```
+
+3. **Configurar as URLs da documentação**
 
    Abra o arquivo `urls.py` do seu projeto Django (geralmente o `urls.py` no diretório principal do projeto) e adicione as seguintes configurações para incluir a documentação Swagger.
 
    ```python
    #streaming_platform/urls.py
-   from django.urls import path, re_path
-   from rest_framework import permissions
-   from drf_yasg.views import get_schema_view
-   from drf_yasg import openapi
-
-   # Configuração do Swagger
-   schema_view = get_schema_view(
-       openapi.Info(
-           title="API de Conteúdos",
-           default_version='v1',
-           description="Documentação da API para o app de streaming de áudio e vídeo",
-           terms_of_service="https://www.google.com/policies/terms/",
-           contact=openapi.Contact(email="suporte@exemplo.com"),
-           license=openapi.License(name="Licença BSD"),
-       ),
-       public=True,
-       permission_classes=(permissions.AllowAny,),
+   from django.contrib import admin
+   from django.urls import path, include
+   from drf_spectacular.views import (
+      SpectacularAPIView,
+      SpectacularSwaggerView,
+      SpectacularRedocView,
    )
 
    urlpatterns = [
@@ -44,36 +54,39 @@ Para adicionar o Swagger ao seu projeto Django com Django REST Framework, você 
        path('admin/', admin.site.urls),
        path('api/', include('app.urls')),  # Inclua as URLs do seu app
 
-       # URLs do Swagger
-       re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-       re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+      # Schema OpenAPI
+      path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+
+      # UIs de documentação
+      path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+      path('api/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
    ]
    ```
 
-3. **Acessar a Documentação Swagger e ReDoc**
+4. **Acessar a Documentação Swagger e ReDoc**
 
    Com a configuração acima, você terá acesso a dois tipos de documentação:
 
    * **Swagger UI**: Interface de documentação interativa. Acesse em:
 
      ```plaintext
-     http://localhost:8000/swagger/
+    http://localhost:8000/api/docs/
      ```
 
    * **ReDoc**: Alternativa ao Swagger com uma interface de documentação mais moderna. Acesse em:
 
      ```plaintext
-     http://localhost:8000/redoc/
+    http://localhost:8000/api/redoc/
      ```
 
-4. **Testar a Documentação**
+5. **Testar a Documentação**
 
-   Ao acessar `http://localhost:8000/swagger/`, você verá a documentação de sua API com base nas views definidas e nos parâmetros dos serializadores. A partir do Swagger, você também pode testar diretamente as endpoints da sua API, enviando requisições com diferentes parâmetros.
+   Ao acessar `http://localhost:8000/api/docs/`, você verá a documentação de sua API com base nas views definidas e nos parâmetros dos serializadores. A partir do Swagger UI, você também pode testar diretamente os endpoints da sua API, enviando requisições com diferentes parâmetros.
 
 ### Configuração Opcional
 
-Para personalizar ainda mais o Swagger, você pode ajustar o `schema_view` no arquivo `urls.py` adicionando mais informações ou incluindo permissões específicas.
+Para personalizar ainda mais a documentação, ajuste o bloco `SPECTACULAR_SETTINGS` no `settings.py` com informações adicionais como versão, servidores, tags e metadados da API.
 
 ---
 
-Esses passos devem ser suficientes para configurar e visualizar o Swagger em seu projeto Django, facilitando o uso e a documentação da sua API.
+Esses passos devem ser suficientes para configurar e visualizar a documentação da API com `drf-spectacular` em seu projeto Django, facilitando o uso e a manutenção da sua API.
