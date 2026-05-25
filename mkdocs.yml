@@ -17,6 +17,10 @@ nav:
             - Relacionamentos: Disciplina/Roteiros/Construcao/Streaming/05_Playlist.md
             - Shell: Disciplina/Roteiros/Construcao/Streaming/06_Shell.md
             - Swagger: Disciplina/Roteiros/Construcao/Streaming/07_Swagger.md
+            - CorsOrigin: Disciplina/Roteiros/Construcao/Streaming/08_CorsOrigin.md
+            - Consume Web: Disciplina/Roteiros/Construcao/Streaming/09_Consume_Web.md
+            - Admin: Disciplina/Roteiros/Construcao/Streaming/10_Admin.md
+
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
