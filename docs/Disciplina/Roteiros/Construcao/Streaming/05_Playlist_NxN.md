@@ -33,6 +33,7 @@ class Playlist(models.Model):
 ### Explicação dos Campos
 
 1. **`title`**: Nome da playlist.
+
 2. **`description`**: Descrição opcional, para explicar o propósito da playlist ou a seleção de conteúdos.
 3. **`user`**: Chave estrangeira que faz referência ao modelo `User`, representando o dono da playlist.
 4. **`contents`**: Relacionamento `ManyToMany` com `Content`, permitindo que vários conteúdos sejam adicionados à playlist.
@@ -148,33 +149,6 @@ Com o Django REST Framework, você pode acessar e interagir com a API nos seguin
 * `DELETE /api/playlists/<id>/` - Excluir uma playlist específica.
 
 
-### 6. **Django Shell**
 
-Com esse modelo, é possível realizar operações no Django Shell para criar playlists, adicionar conteúdos e verificar quais playlists pertencem a um usuário ou contêm um conteúdo específico.
-
-```bash
-python manage.py shell
-```
-
-```python
-from content.models import Content
-from myapp.models import Playlist  # Substitua 'myapp' pelo nome do seu app
-from django.contrib.auth.models import User
-
-# Criando um usuário para teste
-user = User.objects.create(username="testuser")
-
-# Criando alguns conteúdos
-content1 = Content.objects.create(title="Video 1", file_url="https://example.com/video1.mp4")
-content2 = Content.objects.create(title="Audio 1", file_url="https://example.com/audio1.mp3")
-
-# Criando uma playlist e adicionando conteúdos
-playlist = Playlist.objects.create(title="Minha Playlist", user=user)
-playlist.contents.add(content1, content2)
-
-# Verificando os conteúdos na playlist
-for content in playlist.contents.all():
-    print(content.title)
-```
 
 Com essa estrutura, você pode facilmente gerenciar playlists associadas a conteúdos e usuários.

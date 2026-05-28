@@ -1,4 +1,4 @@
-# 11 - Associações
+# 11 - Relacionamentos entre Classes (Associação, Agregação e Composição)
 
 Aplicando os conceitos da **Programação Orientada a Objetos (POO)** ao contexto do **App de Streaming de Áudio e Vídeo com Django REST**.
 
@@ -259,18 +259,3 @@ ContentView ..|> APIView
 
 @enduml
 ```
-
----
-
-### ✅ Como usar
-
-1. Copie esse código para um arquivo com extensão `.puml`, ou use um site como:
-
-   * [PlantUML Live](https://www.plantuml.com/plantuml/)
-   * [PlantText](https://www.planttext.com/)
-
-2. Renderize o diagrama para ver visualmente os relacionamentos.
-
----
-
-
