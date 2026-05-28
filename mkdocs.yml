@@ -8,6 +8,29 @@ nav:
   - Home: index.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
+      - Streaming: 
+            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
+            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
+            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
+            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
+            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+            - Playlist: Disciplina/Roteiros/Construcao/Streaming/05_Playlist_NxN.md
+            - Django Shell: Disciplina/Roteiros/Construcao/Streaming/06_Shell.md
+            - Swagger: Disciplina/Roteiros/Construcao/Streaming/06_Swagger.md
+            - Carga de Dados: Disciplina/Roteiros/Construcao/Streaming/07_Carga_Dados.md
+            - CorsOrigin: Disciplina/Roteiros/Construcao/Streaming/08_CorsOrigin.md
+            - Consume Web: Disciplina/Roteiros/Construcao/Streaming/09_Consume_Web.md
+            - Admin: Disciplina/Roteiros/Construcao/Streaming/10_Admin.md
+            - Associações: Disciplina/Roteiros/Construcao/Streaming/11_Associacoes.md
+            - Autenticação: Disciplina/Roteiros/Construcao/Streaming/12_Autenticacao.md
+            - Filtros: Disciplina/Roteiros/Construcao/Streaming/13_Filtros.md
+            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/14_Regras_Negocio.md
+            - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
+     
+      - Ambiente: Disciplina/ambiente.md
+      - Github: Disciplina/github.md
+      - Mkdocs: Disciplina/mkdocs.md
+      - Avaliações: Disciplina/avaliacoes.md
       - Roteiros:
         - Iniciação: 
           - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
@@ -31,22 +54,6 @@ nav:
             - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
             - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
             - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
-            - Playlist: Disciplina/Roteiros/Construcao/Streaming/05_Playlist_NxN.md
-            - Django Shell: Disciplina/Roteiros/Construcao/Streaming/06_Shell.md
-            - Swagger: Disciplina/Roteiros/Construcao/Streaming/06_Swagger.md
-            - Carga de Dados: Disciplina/Roteiros/Construcao/Streaming/07_Carga_Dados.md
-            - CorsOrigin: Disciplina/Roteiros/Construcao/Streaming/08_CorsOrigin.md
-            - Consume Web: Disciplina/Roteiros/Construcao/Streaming/09_Consume_Web.md
-            - Admin: Disciplina/Roteiros/Construcao/Streaming/10_Admin.md
-            - Associações: Disciplina/Roteiros/Construcao/Streaming/11_Associacoes.md
-            - Autenticação: Disciplina/Roteiros/Construcao/Streaming/12_Autenticacao.md
-            - Filtros: Disciplina/Roteiros/Construcao/Streaming/13_Filtros.md
-            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/14_Regras_Negocio.md
-            - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
-      - Ambiente: Disciplina/ambiente.md
-      - Github: Disciplina/github.md
-      - Mkdocs: Disciplina/mkdocs.md
-      - Avaliações: Disciplina/avaliacoes.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
