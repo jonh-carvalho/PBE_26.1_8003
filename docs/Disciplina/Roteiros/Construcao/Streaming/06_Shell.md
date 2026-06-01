@@ -152,6 +152,35 @@ video_count = Content.objects.filter(content_type='video').count()
 print("Total de vídeos:", video_count)
 ```
 
+### 9. **Django Shell**
+
+Com esse modelo, é possível realizar operações no Django Shell para criar playlists, adicionar conteúdos e verificar quais playlists pertencem a um usuário ou contêm um conteúdo específico.
+
+```bash
+python manage.py shell
+```
+
+```python
+from content.models import Content
+from myapp.models import Playlist  # Substitua 'myapp' pelo nome do seu app
+from django.contrib.auth.models import User
+
+# Criando um usuário para teste
+user = User.objects.create(username="testuser")
+
+# Criando alguns conteúdos
+content1 = Content.objects.create(title="Video 1", file_url="https://example.com/video1.mp4")
+content2 = Content.objects.create(title="Audio 1", file_url="https://example.com/audio1.mp3")
+
+# Criando uma playlist e adicionando conteúdos
+playlist = Playlist.objects.create(title="Minha Playlist", user=user)
+playlist.contents.add(content1, content2)
+
+# Verificando os conteúdos na playlist
+for content in playlist.contents.all():
+    print(content.title)
+```
+
 ### Conclusão
 
 O Django Shell permite explorar o modelo de dados do seu app rapidamente, sem a necessidade de criar views, templates ou interagir com a API. Ele é muito útil para testar funcionalidades, realizar consultas, manipular dados e garantir que os dados estejam sendo gerados e tratados conforme esperado. No contexto de um app de streaming, você pode facilmente listar, criar, atualizar e deletar conteúdos de áudio e vídeo diretamente pelo shell, otimizando o desenvolvimento e a manutenção da aplicação.
