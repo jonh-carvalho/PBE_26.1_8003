@@ -27,6 +27,7 @@ nav:
             - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
             - Permissão e Autorização: Disciplina/Roteiros/Construcao/Streaming/16_Permissao_Autorizacao.md
             - Upload e Armazenamento de Mídia: Disciplina/Roteiros/Construcao/Streaming/17_Upload_Armazenamento_Midia.md
+            - Seguranca de Configuracao (settings e .env): Disciplina/Roteiros/Construcao/Streaming/18_Seguranca_Settings_Env.md
      
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
@@ -57,6 +58,7 @@ nav:
             - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
             - Permissão e Autorização: Disciplina/Roteiros/Construcao/Streaming/16_Permissao_Autorizacao.md
             - Upload e Armazenamento de Mídia: Disciplina/Roteiros/Construcao/Streaming/17_Upload_Armazenamento_Midia.md
+            - Seguranca de Configuracao (settings e .env): Disciplina/Roteiros/Construcao/Streaming/18_Seguranca_Settings_Env.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
