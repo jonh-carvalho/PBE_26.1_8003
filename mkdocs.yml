@@ -25,6 +25,8 @@ nav:
             - Filtros: Disciplina/Roteiros/Construcao/Streaming/13_Filtros.md
             - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/14_Regras_Negocio.md
             - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
+            - Permissão e Autorização: Disciplina/Roteiros/Construcao/Streaming/16_Permissao_Autorizacao.md
+            - Upload e Armazenamento de Mídia: Disciplina/Roteiros/Construcao/Streaming/17_Upload_Armazenamento_Midia.md
      
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
@@ -53,6 +55,8 @@ nav:
             - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
             - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
             - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+            - Permissão e Autorização: Disciplina/Roteiros/Construcao/Streaming/16_Permissao_Autorizacao.md
+            - Upload e Armazenamento de Mídia: Disciplina/Roteiros/Construcao/Streaming/17_Upload_Armazenamento_Midia.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
