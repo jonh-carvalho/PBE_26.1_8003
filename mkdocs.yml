@@ -28,6 +28,7 @@ nav:
             - Permissão e Autorização: Disciplina/Roteiros/Construcao/Streaming/16_Permissao_Autorizacao.md
             - Upload e Armazenamento de Mídia: Disciplina/Roteiros/Construcao/Streaming/17_Upload_Armazenamento_Midia.md
             - Seguranca de Configuracao (settings e .env): Disciplina/Roteiros/Construcao/Streaming/18_Seguranca_Settings_Env.md
+            - QrCode: Disciplina/Roteiros/Construcao/Streaming/19_qrcode.md
      
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md

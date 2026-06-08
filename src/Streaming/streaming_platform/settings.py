@@ -1,19 +1,35 @@
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+def _get_bool_env(name: str, default: bool = False) -> bool:
+    return os.getenv(name, str(default)).strip().lower() in {'1', 'true', 't', 'yes', 'y', 'on'}
+
+
+def _get_list_env(name: str, default: list[str] | None = None) -> list[str]:
+    raw_value = os.getenv(name, '')
+    if not raw_value:
+        return default[:] if default else []
+    return [item.strip() for item in raw_value.split(',') if item.strip()]
+
+
+load_dotenv(BASE_DIR / '.env')
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+ii5wl#kcok=9b^a+wcr=_yvtl&jpf96=_#j9e_+ft2yc+yb-c'
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-change-me')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = _get_bool_env('DEBUG', False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = _get_list_env('ALLOWED_HOSTS')
 
 
 # Application definition
@@ -64,12 +80,15 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = False
 
-CORS_ALLOWED_ORIGINS = [
-       "https://example.com",
-       "https://sub.example.com",
-       "http://127.0.0.1:3001",
-       "http://localhost:8000",  # Exemplo para um app local
-   ]
+CORS_ALLOWED_ORIGINS = _get_list_env(
+    'CORS_ALLOWED_ORIGINS',
+    [
+        'https://example.com',
+        'https://sub.example.com',
+        'http://127.0.0.1:3001',
+        'http://localhost:8000',
+    ],
+)
 
 CORS_ALLOW_CREDENTIALS = True
 
@@ -98,12 +117,26 @@ WSGI_APPLICATION = 'streaming_platform.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+DB_ENGINE = os.getenv('DB_ENGINE', 'sqlite').strip().lower()
+
+if DB_ENGINE == 'mysql':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.getenv('DB_NAME', 'streaming_db'),
+            'USER': os.getenv('DB_USER', 'root'),
+            'PASSWORD': os.getenv('DB_PASSWORD', ''),
+            'HOST': os.getenv('DB_HOST', 'localhost'),
+            'PORT': os.getenv('DB_PORT', '3306'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / os.getenv('SQLITE_NAME', 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
