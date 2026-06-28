@@ -4,7 +4,7 @@
 
 - AP1 - 13/04/2026
 - AP2 - 15/06/2026
-- AS  - 29/06/2026
+- [AS](../Disciplina/as.md)  - 29/06/2026
 - AC  - Ao longo do semestre através da realização das Issues descritas no repositório da disciplina
 
 ### Avaliação Continuada (AC) 
